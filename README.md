@@ -6,6 +6,14 @@ Reactron é um projeto simples que integra o [React.js](https://reactjs.org/), o
 
 Este projeto pretende demonstrar como criar aplicativos simples, que não necessitem diretamente da Plataforma TOTVS, mas que possam facilmente consumir nosso ecossistema, como Serviços Rest, Web Services e integrações baseadas em [ESB](https://pt.wikipedia.org/wiki/Enterprise_Service_Bus), enfim, tudo que possa se comunicar através de protocolos como HTTP/S e websocket, **facilitando entregas e integrações** para nossos clientes.
 
+Aqui terá também acesso aos seguintes processos:
++ Roteamento
++ Execução de comandos do SO com retorno das informações (stdout)
++ Construção de componentes customizados
++ Menus, Dialogs e outros componentes do Material UI
++ Consumo de Rest
++ Formulário básico
+
 ## Falando dos componentes
 
 O **Electron** permite a construção de aplicativos desktop multiplataforma utilizando o HTML5. Entre os aplicativos que usam a plataforma estão o VSCode, as versões desktop do WhatsApp, Slack, Skype, Ryver, entre muitos outros.  
