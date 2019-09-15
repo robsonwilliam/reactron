@@ -66,4 +66,4 @@ Ele então empacota o aplicativo utilizando o `gulp` através do `npm`.
 
 Esse projeto esta sob a licença [MIT](https://www.opensource.org/licenses/mit-license.php)
 
-Foi baseado no [Electrate](https://github.com/mmick66/electrate) (sob licença: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR))
+Baseado no projeto [Electrate](https://github.com/mmick66/electrate) (sob licença: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR))
