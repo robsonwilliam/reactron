@@ -44,22 +44,22 @@ Ele então empacota o aplicativo utilizando o `gulp` através do `npm`.
 
 
 <p align="center"> 
-  <img src="https://github.com/ricardomansano/My_Sources/blob/master/Electron/replay_recorder/images/electron_sequence.png" alt="electron_sequence" border="0">
+  <img src="https://github.com/totvs/reactron/blob/master/images/electron_sequence.png" alt="electron_sequence" border="0">
 </p>
 
 ## Telas
 
 <p align="center"> 
-  <img src="https://github.com/ricardomansano/My_Sources/blob/master/Electron/replay_recorder/images/screen1.png" alt="electron_sequence" border="0">
+  <img src="https://github.com/totvs/reactron/blob/master/images/screen1.png" alt="electron_sequence" border="0">
 </p>
 <p align="center"> 
-  <img src="https://github.com/ricardomansano/My_Sources/blob/master/Electron/replay_recorder/images/screen2.png" alt="electron_sequence" border="0">
+  <img src="https://github.com/totvs/reactron/blob/master/images/screen2.png" alt="electron_sequence" border="0">
 </p>
 <p align="center"> 
-  <img src="https://github.com/ricardomansano/My_Sources/blob/master/Electron/replay_recorder/images/screen3.png" alt="electron_sequence" border="0">
+  <img src="https://github.com/totvs/reactron/blob/master/images/screen3.png" alt="electron_sequence" border="0">
 </p>
 <p align="center"> 
-  <img src="https://github.com/ricardomansano/My_Sources/blob/master/Electron/replay_recorder/images/screen4.png" alt="electron_sequence" border="0">
+  <img src="https://github.com/totvs/reactron/blob/master/images/screen4.png" alt="electron_sequence" border="0">
 </p>
 
 ## Licença
