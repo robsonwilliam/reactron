@@ -16,19 +16,19 @@ export default class BasicForm extends React.Component{
     }
   }
 
-  onClickSubmit(e){
+  onClickSubmit = (e) => {
     this.state.data.push({ list: [this.state.f1, this.state.f2] } )
     this.setState({f1: '', f2: ''})
     e.preventDefault();
   }
 
-  onTextChange(e){
+  onTextChange = (e) => {
     // SetState com nome dinamico
     const {id, value} = e.target
     this.setState({[id]: value})
   }
 
-  delItem(key){
+  delItem = (key) => {
     this.state.data.splice(key, 1)
     this.setState({f1: '', f2: ''});
   }

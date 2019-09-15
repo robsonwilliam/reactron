@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": "https://github.com/totvs/reactron",
   "publisher": "TOTVS",
-	"author": {
-		"name": "Ricardo Mansano",
-		"email": "mansano@totvs.com.br"
-	},
+  "author": {
+    "name": "Ricardo Mansano",
+    "email": "mansano@totvs.com.br"
+  },
   "main": "app/main.js",
   "scripts": {
     "postinstall": "install-app-deps",
@@ -18,8 +18,9 @@
     "dist": "gulp dist"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^24.8.0",
     "electron": "5.0.10",
@@ -44,7 +45,6 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1"
   },
-
   "build": {
     "appId": "com.totvs.rectron",
     "linux": {
@@ -67,5 +67,4 @@
       "category": "your.app.category.type"
     }
   }
-
 }

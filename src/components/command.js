@@ -16,18 +16,18 @@ export default class Command extends React.Component{
     }
   }
 
-  onTextChange(e){
+  onTextChange = (e) => {
     // SetState com nome dinamico
     const {id, value} = e.target
     this.setState({[id]: value})
   }
 
-  onClickSubmit(e){
+  onClickSubmit = (e) => {
     backend.execProcess(this.state.command, this.execProcessCallBack)
     e.preventDefault();
   }
 
-  execProcessCallBack(str){
+  execProcessCallBack = (str) => {
     document.getElementById("execProcessCallBack").innerHTML += "<pre>"+str+"</pre>"
   }
 

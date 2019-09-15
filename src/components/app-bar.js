@@ -22,14 +22,14 @@ export default class AppBar extends React.Component{
     }
 
     // Evento de click no botao [Maximize]
-    maximizeButton(){
+    maximizeButton = () => {
         if ( window.isMaximized() )
             window.restore()
         else
             window.maximize()
     }
 
-    componentDidMount() {
+    componentDidMount = () => {
         // Evento de resize da janela principal
         // Controlo aqui a troca do icone [Maximize]
         window.addListener("resize", () => {

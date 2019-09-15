@@ -14,7 +14,7 @@ export default class Rest extends React.Component{
         this.callRest()
     }
 
-    callRest(){
+    callRest = () => {
         var options = {
             host: 'localhost',
             port: 3333,

@@ -15,7 +15,7 @@ export default class App extends React.Component {
         };
     }
 
-    routePage(page){
+    routePage = (page) => {
         this.setState({pageRouted: page})
     }
 
