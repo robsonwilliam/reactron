@@ -22,6 +22,8 @@ npm install
 ## Execute o projeto à partir do comando
 
 ```bash
+npm start
+ou
 npm run start
 ```
 
